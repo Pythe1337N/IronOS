@@ -3,9 +3,9 @@
 	"languageLocalName": "Svenska",
 	"cyrillicGlyphs": false,
 	"messages": {
-		"SettingsCalibrationDone": "Calibration done!",
-		"SettingsCalibrationWarning": "Please ensure the tip is at room temperature before continuing!",
-		"SettingsResetWarning": "Are you sure you want to reset settings to default values?",
+		"SettingsCalibrationDone": "Kalibrering klar!",
+		"SettingsCalibrationWarning": "Se till att spetsen är rumstempererad innan du fortsätter!",
+		"SettingsResetWarning": "Är du säker att du vill återställa inställningarna?",
 		"UVLOWarningString": "DC LÅG",
 		"UndervoltageString": "Underspänning",
 		"InputVoltageString": "Inspän. V: ",
@@ -23,12 +23,12 @@
 		"OffString": "Av",
 		"ResetOKMessage": "Reset OK",
 		"YourGainMessage": "Your gain:",
-		"SettingsResetMessage": "Settings were\nreset!",
-		"NoAccelerometerMessage": "No accelerometer\ndetected!",
-		"NoPowerDeliveryMessage": "No USB-PD IC\ndetected!",
-		"LockingKeysString": " LOCKED",
-		"UnlockingKeysString": "UNLOCKED",
-		"WarningKeysLockedString": "!LOCKED!"
+		"SettingsResetMessage": "Återställt!",
+		"NoAccelerometerMessage": "Ingen accelerometer hittades!",
+		"NoPowerDeliveryMessage": "Inget USB-PD chip hittades!",
+		"LockingKeysString": "LÅST",
+		"UnlockingKeysString": "UPPLÅST",
+		"WarningKeysLockedString": "!LÅST!"
 	},
 	"characters": {
 		"SettingRightChar": "H",
@@ -98,7 +98,7 @@
 				"Vilo-",
 				"timeout"
 			],
-			"desc": "Vilo-timeout <Minuter/Seconder>"
+			"desc": "Vilo-timeout <Minuter/Sekunder>"
 		},
 		"ShutdownTimeout": {
 			"text2": [
@@ -144,7 +144,7 @@
 		},
 		"AutoStart": {
 			"text2": [
-				"Auto",
+				"Auto-",
 				"start"
 			],
 			"desc": "Startar automatiskt lödpennan vid uppstart. T=Lödning, S=Viloläge, F=Av"
@@ -193,87 +193,87 @@
 		},
 		"TipModel": {
 			"text2": [
-				"Tip",
-				"Model"
+				"Spets-",
+				"modell"
 			],
-			"desc": "Tip Model selection"
+			"desc": "Välj spetsmodell"
 		},
 		"SimpleCalibrationMode": {
 			"text2": [
-				"Simple",
-				"Calibration"
+				"Simpel",
+				"Kalibrering"
 			],
-			"desc": "Simple Calibration using Hot water"
+			"desc": "Simpel kalibrering med varmvatten"
 		},
 		"AdvancedCalibrationMode": {
 			"text2": [
-				"Advanced",
-				"Calibration"
+				"Avancerad",
+				"Kalibrering"
 			],
-			"desc": "Advanced calibration using thermocouple on the tip"
+			"desc": "Avancerad kalibrering med termoelement"
 		},
 		"QCMaxVoltage": {
 			"text2": [
-				"Power",
-				"Wattage"
+				"QC",
+				"spänning"
 			],
-			"desc": "Power Wattage of the power adapter used"
+			"desc": "Max QC spänning som önskas"
 		},
 		"PowerLimit": {
 			"text2": [
-				"Power",
-				"Limit"
+				"Effekt",
+				"Gräns"
 			],
-			"desc": "Maximum power the iron can use <Watts>"
+			"desc": "Maxeffekt för lödpenna <Watts>"
 		},
 		"ReverseButtonTempChange": {
 			"text2": [
-				"Key +-",
-				"reverse?"
+				"Omvända",
+				"+ - knappar"
 			],
-			"desc": "Reverse the tip temperature change buttons plus minus assignment."
+			"desc": "Reverse assignment of temperature adjustment buttons"
 		},
 		"TempChangeShortStep": {
 			"text2": [
-				"Temp change",
-				"short?"
+				"Temp.ändring",
+				"kort"
 			],
-			"desc": "Temperature change steps on short button press!"
+			"desc": "Temperaturändring vid kort knapptryck"
 		},
 		"TempChangeLongStep": {
 			"text2": [
-				"Temp change",
-				"long?"
+				"Temp.ändring",
+				"lång"
 			],
-			"desc": "Temperature change steps on long button press!"
+			"desc": "Temperaturändring vid långt knapptryck"
 		},
 		"PowerPulsePower": {
 			"text2": [
-				"Power",
-				"Pulse W"
+				"Effekt",
+				"puls"
 			],
 			"desc": "Keep awake pulse power intensity"
 		},
 		"TipGain": {
 			"text2": [
-				"Modify",
+				"Ändra",
 				"tip gain"
 			],
 			"desc": "Tip gain"
 		},
 		"HallEffSensitivity": {
 			"text2": [
-				"Hall Eff",
-				"Sensitivity"
+				"Hall-givare",
+				"känslighet"
 			],
-			"desc": "Sensitivity of the Hall effect sensor in detecting sleep <O=Off,L=Low,M=Medium,H=High>"
+			"desc": "Känslighet för hall-givaren för viloläge <O=Off | L=Låg | M=Medium | H=Hög>"
 		},
 		"LockingMode": {
 			"text2": [
-				"Allow buttons",
-				"locking"
+				"Tillåt",
+				"knapplås"
 			],
-			"desc": "When soldering, long press on both buttons lock them <D=Disable, B=Boost only, F=Full locking>"
+			"desc": "Vid lödning, håll inne båda knapparna för att låsa dem <D=Disable, B=Endast boost, F=Full låsning>"
 		}
 	}
 }
